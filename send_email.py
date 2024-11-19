@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 
 def send_email(subject, body, to_email):
     # Email configuration
-    from_email = "jlarijarosa@gmail.com"  # Your email
+    from_email = "<INSERT YOUR EMAIL>"  # Your email
     from_password = "sdsq qlhh lveq oapw"  # Your email password (use app password if 2FA enabled)
     
     # Set up the SMTP server (for Gmail in this case)
