@@ -61,7 +61,7 @@ if response.status_code == 200:
         df.to_csv(df_saved_name)
     # now send me an email if new houses
     if new_houses:
-        send_email.send_email(send_email.subject, send_email.body, "jlarijarosa@gmail.com")
+        send_email.send_email(send_email.subject, send_email.body, "<INSERT YOUR EMAIL>")
     else:
         pass
 
